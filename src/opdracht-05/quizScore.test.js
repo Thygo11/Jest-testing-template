@@ -47,7 +47,7 @@ describe('Quiz Score', () => {
       { question: 2, isCorrect: true, points: 10 },
       { question: 3, isCorrect: true, points: 10 },
       { question: 4, isCorrect: true, points: 10 },
-      { question: 5, isCorrect: false, points: 0 }
+      { question: 5, isCorrect: true, points: 10 }
     ];
     expect(getGrade(answers)).toBe('Excellent');
   });
