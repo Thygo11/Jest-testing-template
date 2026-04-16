@@ -6,8 +6,8 @@ describe('ProfileCard', () => {
   // VOORBEELD - Deze test is al ingevuld
   test('VOORBEELD: toont de naam', () => {
     render(<ProfileCard name="Jan" age={25} />);
-    const heading = screen.getByText('Jan');
-    expect(heading).toBeInTheDocument();
+    const result = screen.getByText('Jan');
+    expect(result).toBeInTheDocument();
   });
 
   test('toont de leeftijd', () => {
